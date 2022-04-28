@@ -1,0 +1,263 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video, a, p, option {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: 'sans';
+  font-size: .85rem;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none !important;
+  font-size: .8rem;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #f5f5f5;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: 'sans';
+  src: url("../font/Sans a4fran3.ttf") format("truetype");
+}
+
+ul {
+  list-style: none;
+}
+
+header .conteiner .location:hover {
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 1% 1%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .conteiner .type:hover {
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 1% 1%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .conteiner .box {
+  width: 45%;
+}
+
+header .conteiner .box .search-box {
+  width: 80%;
+  background: #f5f5f5;
+}
+
+header .conteiner .box .search-box input {
+  background: #f5f5f5;
+  font-size: .8rem;
+}
+
+header .conteiner .user:hover {
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 1% 1%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .conteiner .comment:hover {
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 1% 1%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .conteiner .support:hover {
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 1% 1%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .conteiner .sabt button {
+  background: #a62626;
+  line-height: 3;
+  font-size: .8rem;
+}
+
+main #Ads .conteiner .right {
+  width: 18%;
+}
+
+main #Ads .conteiner .right .types ul li:hover {
+  color: #000;
+}
+
+main #Ads .conteiner .adversting {
+  width: 80%;
+}
+
+main #Ads .conteiner .adversting .title {
+  margin-top: 30px;
+}
+
+main #Ads .conteiner .adversting .title span {
+  font-size: .7rem;
+}
+
+main #Ads .conteiner .adversting .items {
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 55px;
+}
+
+main #Ads .conteiner .adversting .items .item {
+  width: 30%;
+}
+
+main #Ads .conteiner .adversting .items .item .text {
+  width: 57%;
+}
+
+main #Ads .conteiner .adversting .items .item .text h5 {
+  font-size: 1.1rem;
+}
+
+main #Ads .conteiner .adversting .items .item .text .price {
+  margin-top: 57px;
+}
+
+main #Ads .conteiner .adversting .items .item .image {
+  width: 25%;
+}
+
+@media (max-width: 992px) {
+  main #Ads .conteiner .right {
+    width: 25%;
+  }
+  main #Ads .conteiner .adversting {
+    width: 73%;
+  }
+  main #Ads .conteiner .adversting .items .item {
+    width: 49%;
+  }
+}
+
+@media (max-width: 768px) {
+  main #Ads .conteiner .right {
+    width: 37%;
+  }
+  main #Ads .conteiner .adversting {
+    width: 63%;
+  }
+  main #Ads .conteiner .adversting .items .item {
+    width: 89%;
+  }
+}
+
+@media (max-width: 576px) {
+  main #Ads .conteiner .right {
+    display: none;
+  }
+  main #Ads .conteiner .adversting {
+    width: 90%;
+  }
+  main #Ads .conteiner .adversting .items .item {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=stayle.css.map */
